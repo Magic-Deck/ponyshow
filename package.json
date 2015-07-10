@@ -23,7 +23,6 @@
     "node": ">=0.10"
   },
   "bundledDependencies": [
-    "kramed-ponyshow",
     "ascii-banner"
   ],
   "dependencies": {
