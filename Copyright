@@ -1,0 +1,12 @@
+/*
+Ponyshow CLI
+A command line interface for creating and viewing Ponyshow (Markdown-to-html) presentation files
+
+Download the Ponyshow App: http://www.semanticpress.com/ponyshow
+
+Version: <%= version %>
+Full source at https://github.com/semanticpress/ponyshow-cli
+
+Author: TZ Martin <martin@semanticpress.com>
+License: Apache 2.  Copyright Semantic Press, Inc. All rights reserved.
+*/

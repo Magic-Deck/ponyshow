@@ -1,0 +1,136 @@
+<!DOCTYPE HTML><html lang="en"><head><title>Pony Show IDE</title><meta charset="utf-8"><meta name="viewport" content="width=792, user-scalable=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/themes/appcelerator/styles/screen.css"></head><body class="list" data-plugins="next timer markdown"><header class="caption">
+<h1>Filesystem APIs</h1>
+<h2>Appcelerator Certified Developer (ACD) Training</h2>
+</header>
+
+<section class="slide cover" id="" false>
+<div>
+<h1 class="fit">Filesystem</h1>
+<h2 class="fit">Appcelerator Certified Developer (ACD) Training</h2>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">In this lession, you will:</h1>
+<ul>
+<li>Explore Titanium Filesystem APIs</li>
+<li>Understand how and where to store data on the filesystem</li>
+<li>Understand LocalStorage for use with Mobile Web</li>
+</ul>
+</div>
+</section>
+
+<section class="slide section" id="" false>
+<div>
+<h1 class="fit">The Filesystem</h1>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">Filesystem Persistence and Security</h1>
+<ul>
+<li>iOS/Android applications have limited Read/Write access to the filesystem</li>
+<li>Filesystem data persists until uninstall, except temp directories</li>
+<li>Filesystem locations are &#39;sandboxed&#39; and private to your app</li>
+<li>Except external storage on Android</li>
+<li>Mobile Web has no filesystem access</li>
+</ul>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">Common Storage Locations</h1>
+<ul>
+<li>Ti.Filesystem.resourcesDirectory — read-only</li>
+<li>Ti.Filesystem.applicationDataDirectory — read/write</li>
+<li>Ti.Filesystem.tempDirectory — read/write</li>
+<li>Ti.Filesystem.applicationCacheDirectory — read/write</li>
+</ul>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">iOS Filesystem</h1>
+<ul>
+<li>applicationDirectory — read-only</li>
+<li>applicationSupportDirectory — read/write</li>
+<li><strong>remoteBackup</strong> property</li>
+</ul>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">Android Filesystem</h1>
+<ul>
+<li>Ti.Filesystem.externalStorageDirectory — read/write, not sandboxed</li>
+<li>Ti.Filesystem.isExternalStoragePresent() — returns true/false</li>
+<li>resRawDirectory – Add files to platform/android/res/raw</li>
+</ul>
+</div>
+</section>
+
+<section class="slide code" id="" false>
+<div>
+<h1 class="fit">Filesystem Example</h1>
+<pre><code class="language-javascript">var file = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "myfile.txt"); 
+
+var blob = file.read(); // binary representation of blob (file) 
+
+var textOfFile = blob.text; 
+var path = file.nativePath; // path to the file 
+var mimetype = blob.mimeType; 
+// dispose of file handle and blob 
+file = null; 
+blob = null; (no close() method)</code></pre></div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">Scaffolding Example</h1>
+<p><img src="assets/filesystem.screenshot.png" alt="absolute height:450px;top:420px;left:80%;" class="place" style="position: absolute;height:450px;top:420px;left:80%;"></p><p><a href="http://github.com/appcelerator-training/Persistence">http://github.com/appcelerator-training/Persistence</a></p></div>
+</section>
+
+<section class="slide section" id="" false>
+<div>
+<h1 class="fit">LocalStorage API</h1>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">Local Storage</h1>
+<ul>
+<li>In-browser persistent storage location</li>
+<li>Support varies by browser and version</li>
+<li>Typical limit is 5MB — for app, properties, - Appcelerator libraries, etc.</li>
+<li>User can clear at any time via browser tools</li>
+<li>Local Storage == Resources directory in Mobile Web</li>
+</ul>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<h1 class="fit">Summary</h1>
+<p><strong>In this lesson, you:</strong></p><ul>
+<li>Explored Appcelerator Filesystem APIs</li>
+<li>Examined how and where to store data on the filesystem</li>
+<li>Looked at LocalStorage for use with Mobile Web</li>
+</ul>
+</div>
+</section>
+
+<section class="slide section" id="" false>
+<div>
+<h1 class="fit">Q&amp;A</h1>
+</div>
+</section>
+
+<section class="slide " id="" false>
+<div>
+<div class="progress"><div></div></div><script src="/js/main.js"></script></body></html>
