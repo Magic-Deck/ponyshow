@@ -53,6 +53,18 @@ window.onerror = function(errorMsg, url, lineNumber) {
   }
 }
 
+var exampleSocket = new WebSocket("ws://127.0.0.1:8081");
+exampleSocket.onmessage = function (event) {
+  console.log('received event..');
+  switch(event.data) {
+    case 'reload':
+      location.reload();
+      break;
+    default:
+      console.log(event.data);
+  }
+};
+
 Element.prototype.isVisible = function() {
  
     'use strict';

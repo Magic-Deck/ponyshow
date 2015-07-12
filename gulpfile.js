@@ -14,13 +14,14 @@ var jshint = require('gulp-jshint'),
   sourcemaps = require('gulp-sourcemaps'),
   header = require("gulp-header"),
   inject = require('gulp-inject'),
-  clean = require('gulp-clean');
+  clean = require('gulp-clean'),
+  pkgJson = require('./package.json');
 
 var getCopyright = function () {
   return fs.readFileSync('Copyright');
 };
 var getVersion = function () {
-    return fs.readFileSync('Version');
+    return pkgJson.version;
 };
 
 gulp.task('clean-html', function () {

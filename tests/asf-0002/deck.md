@@ -1,7 +1,7 @@
 theme:appcelerator
 linenumbers:false
 
-# Filesystem APIs
+# Filesystem APIsss
 
 ## Appcelerator Certified Developer (ACD) Training
 
@@ -13,7 +13,7 @@ linenumbers:false
 
 ---
 
-# In this lession, you will:
+# In this lesson, you will:
 
 - Explore Titanium Filesystem APIs
 - Understand how and where to store data on the filesystem
