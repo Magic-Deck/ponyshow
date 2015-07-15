@@ -23,6 +23,18 @@ $ pony run [path]
 
 Render a single presentation, or if several folders are found, display a list of presentations to choose from.  A static file server is included for hosting presentations.
 
+### New
+
+- Slide
+
+Create a new Ponyshow slide repo.  This walks you through a list of questions and generates a directory containing: 
+
+- deck.md
+- package.json
+- assets/
+
+```deck.md``` contains all slide content for a slide deck.
+
 ### Install
 
 - Theme
