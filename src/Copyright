@@ -1,10 +1,10 @@
 /*
- * Ponyshow JS Client
+ * Ponyshow Web Client
  * A command line interface for creating and viewing Ponyshow (Markdown-to-html) presentation files
  * 
  * Download the Ponyshow App: http://www.semanticpress.com/ponyshow
  * 
- * JS Client v<%= version %>
+ * JS/CSS Client v<%= version %>
  * Full source at https://github.com/Ponyshow/ponyshow-cli
  *
  * Author: TZ Martin, <martin@semanticpress.com>

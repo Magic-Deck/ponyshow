@@ -1,0 +1,16 @@
+{
+	"guid": "guid",
+	"title": "title",
+	"filename": "filename",
+	"version": "version",
+	"description": "description",
+	"screenshots": "screenshots",
+	"main": "main",
+	"repository": "repository",
+	"author": "author",
+	"license": "license",
+	"path": "path",
+	"theme": "theme",
+	"repoUrl": "repoUrl",
+	"locale": "locale"
+}

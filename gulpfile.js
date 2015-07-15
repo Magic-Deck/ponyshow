@@ -18,7 +18,7 @@ var jshint = require('gulp-jshint'),
   pkgJson = require('./package.json');
 
 var getCopyright = function () {
-  return fs.readFileSync('Copyright');
+  return fs.readFileSync('src/Copyright');
 };
 var getVersion = function () {
     return pkgJson.version;
