@@ -1,4 +1,5 @@
 {
+  "locale":"en",
   "theme": "deckset",
   "port": "8085",
   "wsport": 8081
