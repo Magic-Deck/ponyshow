@@ -1,3 +1,8 @@
+/*
+ * Ponyshow JS / CSS client library
+ * To compile, run gulp
+*/
+
 var gulp = require('gulp'),
   fs = require('fs');
 
@@ -21,7 +26,7 @@ var getCopyright = function () {
   return fs.readFileSync('src/Copyright');
 };
 var getVersion = function () {
-    return pkgJson.version;
+    return fs.readFileSync('src/Version');
 };
 
 gulp.task('clean-html', function () {
