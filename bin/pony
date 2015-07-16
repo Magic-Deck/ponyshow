@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 // --debug-brk
 
-require('../lib/pony');
+require('../lib/main');

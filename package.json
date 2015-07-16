@@ -15,7 +15,7 @@
   "bin": {
     "pony": "./bin/pony"
   },
-  "main": "./lib/pony",
+  "main": "./lib/main",
   "directories": {
     "lib": "./lib"
   },
