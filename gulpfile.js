@@ -22,52 +22,10 @@ var jshint = require('gulp-jshint'),
   clean = require('gulp-clean'),
   pkgJson = require('./package.json');
 
-var getCopyright = function () {
-  return fs.readFileSync('src/Copyright');
-};
-var getVersion = function () {
-  return fs.readFileSync('src/Version');
-};
-
-gulp.task('clean-html', function () {
-  return gulp.src('workspace/*.html', {read: false})
-    .pipe(clean());
-});
-
-
-/*
-
-  CSS minify
-
-*/
-gulp.task('minify-css', function () {
-  gulp.src(['src/css/prism.css'])
-    .pipe(sourcemaps.init())
-    .pipe(minifyCss({keepBreaks:false}))
-    .pipe(concat('main.css'))
-    .pipe(gulp.dest('workspace/css'));
-});
-
-/*
-
-  Concatenate & Minify JS
-
-*/
-gulp.task('scripts', function() {
-  return gulp.src(['src/js/app.js','src/js/app.shower.js','src/js/canvas2image.js','src/js/html2canvas.js','src/js/prism.js'])
-    .pipe(concat('main.js'))
-    .pipe(gulp.dest('workspace/js'))
-    .pipe(uglify())
-    .pipe(header(getCopyright(), {version: getVersion()}))
-    .pipe(gulp.dest('workspace/js'));
-});
- 
-
-
 
 /*
 
   Default tasks
 
 */
-gulp.task('default', ['scripts', 'minify-css']);
+gulp.task('default', []);
