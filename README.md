@@ -6,9 +6,9 @@ It's simple! Write down your thoughts in your favorite markdown / text editor, a
 
 ## Ponyshow is a Deckset killer.
 
-If you've used Deckset, you going to love Ponyshow.. especially if you have been wanting custom themes and more control over the final rendering.  Ponyshow gives you FULL control over content, rendering and delivery.
+If you've used [Deckset](http://www.decksetapp.com/), you going to love Ponyshow.. especially if you have been wanting custom themes and more control over the final rendering.  Ponyshow gives you FULL control over content, rendering and delivery.
 
-Run, pony run!
+There's many more possibilities with Ponyshow.  Run, pony run!
 
 # Pony what?
 
