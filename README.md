@@ -1,12 +1,26 @@
-# Ponyshow - Great-looking slides from simple Markdown files
+# Ponyshow - Create great-looking slides from simple Markdown files
 
 Ponyshow is a command line tool for turning your markdown files into beautiful presentations.
 
 It's simple! Write down your thoughts in your favorite markdown / text editor, and Ponyshow will convert them into beautiful presentations on the fly.  Make a change.. it's instantly visible.
 
+Features such as: 
+
+- "Live view" rendering
+- Custom themes
+- Localization
+- Code snippet support with syntax highlighting
+- Image positioning and styling
+- Background images
+- Dynamic text styling
+- Websockets
+- Video player support
+- Real-time collaborative editing
+- Interactive components: polls, exams, etc
+
 ## Ponyshow is a Deckset killer.
 
-If you've used [Deckset](http://www.decksetapp.com/), you going to love Ponyshow.. especially if you have been wanting custom themes and more control over the final rendering.  Ponyshow gives you FULL control over content, rendering and delivery.
+If you've used [Deckset](http://www.decksetapp.com/), you are going to love Ponyshow.. especially if you have been wanting custom themes and more control over the final rendering.  Ponyshow gives you FULL control over content, rendering and delivery.
 
 There's many more possibilities with Ponyshow.  Run, pony run!
 
@@ -30,7 +44,6 @@ Install globally and use ```pony``` command.
 
 ```
 npm install ponyshow-cli -g
-
 ```
 
 ## Usage
@@ -93,7 +106,7 @@ just a test
 - So is this
 ```
 
-Here's the rendering:
+Here's a rendered deck preview:
 
 ![](https://monosnap.com/file/FwGI97CZIR8TCPThKqHpstsxpSQxEQ.png)
 
