@@ -47,9 +47,9 @@ $ pony install theme            // view available themes from the Ponyshow Regis
 $ pony install theme http://..  // install a specific theme
 ```
 
-## Pony Decks
+## Ponyshow Decks
 
-A Ponyshow deck is a folder consisting of
+A Ponyshow deck is a folder consisting of:
  
 ```
 - deck.md               // master slide deck
@@ -58,13 +58,46 @@ A Ponyshow deck is a folder consisting of
 - locales/              // localization files that contain ISO 3166-1 country codes (2 alpha)
 ```
 
-## Pony Files
+## Writing Content
+
+You write content using [markdown](http://daringfireball.net/projects/markdown/syntax).  Ponyshow introduces additional syntax tokens that make authoring slides easy.
+
+Here's an example deck:
+
+```
+theme:appcelerator-training
+
+#Welcome
+
+just a test
+
+---cover
+
+# Test Slide
+
+---
+
+# Slide 2
+
+---section
+
+# Welcome to Ponyshow
+
+---
+
+# Slide 4
+
+![](http://placehold.it/600x100)
+
+- This is a list
+- So is this
+```
 
 Deck.md is considered the "master" markdown file that will render an entire slide deck.  You can write vanilla markdown along with Ponyshow syntax to render beautiful presentations.  All other markdown files will be ignored.  In future releases, there will be support for adding rendering multiple files into one deck.
 
-## Ponyshow Syntax
+### Ponyshow Syntax
 
-Ponyshow presentations are written in [markdown](http://daringfireball.net/projects/markdown/syntax) with additional syntax tokens.  Official docs are coming soon.  To get started you can create a new deck to see a rendered output.
+Markdown, Kramdown and Deckset tokens are supported.  Official docs are coming soon.  To get started you can create a new deck to see a rendered output.
 
 ### Localization Files
 
