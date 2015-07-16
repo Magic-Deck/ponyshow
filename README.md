@@ -1,8 +1,28 @@
-# Ponyshow CLI
+# Ponyshow - Great-looking slides from simple Markdown files
 
-A command line tool for rendering Ponyshow presentations.
+Ponyshow is a command line tool for turning your markdown files into beautiful presentations.
+
+It's simple! Write down your thoughts in your favorite markdown / text editor, and Ponyshow will convert them into beautiful presentations on the fly.  Make a change.. it's instantly visible.
+
+## Ponyshow is a Deckset killer.
+
+If you've used Deckset, you going to love Ponyshow.. especially if you have been wanting custom themes and more control over the final rendering.  Ponyshow gives you FULL control over content, rendering and delivery.
+
+Run, pony run!
+
+# Pony what?
+
+Ever heard of the expression, "dog and pony show"?  An ode to Shakespear, *The Show Of Mr. Dogg And Mr. Poneigh* "bringest the butts to the seats."  That is to say, it's the best damn show on earth.  This is the spirit of Ponyshow, a command-line tool that converts markdown into HTML.
+
+The best dog and pony shows incorporate bad jokes and over the top excitement in presenting information.  Hence the terrible name to induce stickiness.
+
+In reality, Ponyshow reduced cognitive load by using markdown to organize content and web development for rendering slides.  Because it's web-enabled, you have greater flexibility with customizing the final output without the hassle of managing master files, versions, assets, proprietary formats, etc.  Plus the rendering engine is on par with Keynote, Google Slides and Powerpoint.
+
+Point blank: It's the best damn show on earth... especially if you're a developer.
 
 ## Install
+
+Requires node.js.
 
 [![Get it on npm](https://nodei.co/npm/ponyshow-cli.png)](https://nodei.co/npm/ponyshow-cli/)
 
