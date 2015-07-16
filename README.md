@@ -12,13 +12,13 @@ Run, pony run!
 
 # Pony what?
 
-Ever heard of the expression, "dog and pony show"?  An ode to Shakespear, *The Show Of Mr. Dogg And Mr. Poneigh* "bringest the butts to the seats."  That is to say, it's the best damn show on earth.  This is the spirit of Ponyshow, a command-line tool that converts markdown into HTML.
+Ever heard of the expression, "[dog and pony show](https://en.wikipedia.org/wiki/Dog_and_pony_show)"?  An ode to Shakespeare, *The Show Of Mr. Dogg And Mr. Poneigh* "bringest the butts to the seats."  That is to say, it's the best damn show on earth.  This is the spirit of Ponyshow, a command-line tool that converts markdown into HTML.
 
-The best dog and pony shows incorporate bad jokes and over the top excitement in presenting information.  Hence the terrible name to induce stickiness.
+The best dog and pony shows incorporate bad jokes and over the top excitement in presenting information.  Hence the terrible terrible name for such a cool tool.
 
 In reality, Ponyshow reduced cognitive load by using markdown to organize content and web development for rendering slides.  Because it's web-enabled, you have greater flexibility with customizing the final output without the hassle of managing master files, versions, assets, proprietary formats, etc.  Plus the rendering engine is on par with Keynote, Google Slides and Powerpoint.
 
-Point blank: It's the best damn show on earth... especially if you're a developer.
+Point blank: It's the best damn show on earth... especially if you're a developer needing to write presentations.
 
 ## Install
 
