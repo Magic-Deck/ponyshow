@@ -49,7 +49,7 @@ $ pony install theme http://..  // install a specific theme
 
 ## Ponyshow Decks
 
-A Ponyshow deck is a folder consisting of:
+A Ponyshow deck is a compressed folder consisting of:
  
 ```
 - deck.md               // master slide deck
@@ -93,7 +93,21 @@ just a test
 - So is this
 ```
 
-Deck.md is considered the "master" markdown file that will render an entire slide deck.  You can write vanilla markdown along with Ponyshow syntax to render beautiful presentations.  All other markdown files will be ignored.  In future releases, there will be support for adding rendering multiple files into one deck.
+Here's the rendering:
+
+![](https://monosnap.com/file/FwGI97CZIR8TCPThKqHpstsxpSQxEQ.png)
+
+### Editing
+
+The entry point for rendering is ```deck.md```, a markdown file that comprises individual slides.  This file is considered your **master** file and will be converted into HTML.  You will want to edit this file in your preferred text editor.
+
+You can write vanilla markdown along with Ponyshow syntax to render beautiful presentations.  All other markdown files will be ignored.  In future releases, there will be support for adding rendering multiple files into one deck.
+
+**Live View**
+
+During editing, changes will immediately reflect in the browser viewer enabling you to see "live" changes.  
+
+Note: if the browser doesn't update, simply manually refresh.
 
 ### Ponyshow Syntax
 
