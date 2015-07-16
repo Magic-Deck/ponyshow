@@ -73,4 +73,6 @@ TZ Martin <martin@semanticpress.com>
 
 Copyright (c) 2015, Semantic Press (Apache 2 Licensed)
 
+Ponyshow is made possible by the [Shower](https://github.com/shower/shower) open source project and other [open source software](https://github.com/Ponyshow/ponyshow-cli/wiki/Credits).
+
 See LICENSE for more info.
