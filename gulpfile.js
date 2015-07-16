@@ -26,7 +26,7 @@ var getCopyright = function () {
   return fs.readFileSync('src/Copyright');
 };
 var getVersion = function () {
-    return fs.readFileSync('src/Version');
+  return fs.readFileSync('src/Version');
 };
 
 gulp.task('clean-html', function () {

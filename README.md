@@ -15,34 +15,49 @@ npm install ponyshow-cli -g
 
 ## Usage
 
-### Run
+Example commands
 
 ```
-$ pony run [path]
+$ pony run [path]               // renders a single presentation or displays a list to choose from
+$ pony run --locale en          // set localization to English
+$ pony new slide                // create a new deck
+$ pony config                   // display global configs
+$ pony config set foo=bar       // set a global
+$ pony install theme            // view available themes from the Ponyshow Registry
+$ pony install theme http://..  // install a specific theme
 ```
 
-Render a single presentation, or if several folders are found, display a list of presentations to choose from.  A static file server is included for hosting presentations.
+## Pony Decks
 
-### New
+A Ponyshow deck is a folder consisting of
+ 
+```
+- deck.md               // master slide deck
+- package.json          // deck configuration
+- assets/               // relative dependencies, images, media, etc
+- locales/              // localization files that contain ISO 3166-1 country codes (2 alpha)
+```
 
-- Slide
+## Pony Files
 
-Create a new Ponyshow slide repo.  This walks you through a list of questions and generates a directory containing: 
+Deck.md is considered the "master" markdown file that will render an entire slide deck.  You can write vanilla markdown along with Ponyshow syntax to render beautiful presentations.  All other markdown files will be ignored.  In future releases, there will be support for adding rendering multiple files into one deck.
 
-- deck.md
-- package.json
-- assets/
+## Ponyshow Syntax
 
-```deck.md``` contains all slide content for a slide deck.
+Ponyshow presentations are written in [markdown](http://daringfireball.net/projects/markdown/syntax) with additional syntax tokens.  Official docs are coming soon.  To get started you can create a new deck to see a rendered output.
 
-### Install
+### Localization Files
 
-- Theme
+Ponyshow supports rendering localized versions of a master deck. You can set localization for the master deck in the ```package.json``` file, or at run time using the following command:
 
 ```
-$ pony install theme {path/to/git-repo}
-
+$ pony run --locale es
 ```
+
+If a localization file doesn't exist, you will be prompted to create one.  This will simply copy the master and create a new file with the naming convention of ```locales/[country-code].md```.  The renderer will explicitly look for 2-alpha country code files.
+
+Ponyshow also supports i18n for configuration files (coming soon).
+
 
 ## Contribution and License Agreement
 
