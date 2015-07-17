@@ -1,13 +1,14 @@
 # Ponyshow - Create great-looking slides from simple Markdown files
 
-Ponyshow is a command line tool for turning your markdown files into beautiful presentations.
+Ponyshow is a command line tool for turning your markdown files into beautiful presentations.  It's a simpler, faster way to create presentations. 
 
-It's simple! Write down your thoughts in your favorite markdown / text editor, and Ponyshow will convert them into beautiful presentations on the fly.  Make a change.. it's instantly visible.
+Write down your thoughts in your favorite markdown / text editor, and Ponyshow will convert them into beautiful presentations on the fly.  Make a change.. it's instantly visible.
 
 Features such as: 
 
 - "Live view" rendering
 - Custom themes
+- Auto layouts
 - Localization
 - Code snippet support with syntax highlighting
 - Image positioning and styling
@@ -17,6 +18,10 @@ Features such as:
 - Video player support
 - Real-time collaborative editing
 - Interactive components: polls, exams, etc
+- Export to PDF
+- Slide configuration options
+- Slide timer for auto transitioning
+- Build steps to present bullet points one step at at time
 
 ## Ponyshow is a Deckset killer.
 
