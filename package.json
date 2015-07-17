@@ -1,19 +1,20 @@
 {
-  "name": "ponyshow-cli",
+  "name": "ponyshow",
   "version": "0.0.10",
-  "description": "Command line tools for Pony Show presentation engine",
+  "description": "An app for creating beautiful presentations using markdown.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/semanticpress/ponyshow-cli.git"
+    "url": "git://github.com/semanticpress/ponyshow.git"
   },
   "preferGlobal": true,
   "author": "TZ Martin <martin@semanticpress.com> (http://semanticpress.com)",
   "license": "Apache Public License v2",
   "bin": {
-    "pony": "./bin/pony"
+    "pony": "./bin/pony",
+    "ponyshow": "./bin/pony"
   },
   "main": "./lib/main",
   "directories": {
