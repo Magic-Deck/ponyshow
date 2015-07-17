@@ -165,3 +165,7 @@ Copyright (c) 2015, Semantic Press (Apache 2 Licensed)
 Ponyshow is made possible by the [Shower](https://github.com/shower/shower) open source project and other [open source software](https://github.com/Ponyshow/ponyshow/wiki/Credits).
 
 See LICENSE for more info.
+
+<img
+src="http://c.statcounter.com/10534093/0/9ad73f33/1/"
+alt="website statistics" style="border:none;">
