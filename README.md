@@ -25,7 +25,7 @@ Features include:
 
 Write down your thoughts in your favorite markdown / text editor, and Ponyshow will convert them into beautiful presentations on the fly.  Make a change.. it's instantly visible.
 
-## Ponyshow is a Deckset killer.
+## "Ponyshow is a Deckset killer".
 
 If you've used [Deckset](http://www.decksetapp.com/), you are going to love Ponyshow.. especially if you have been wanting custom themes and more control over the final rendering.  Ponyshow gives you FULL control over content, rendering and delivery.
 
@@ -45,12 +45,14 @@ Point blank: It's the best damn show on earth... especially if you're a develope
 
 Requires node.js.
 
-[![Get it on npm](https://nodei.co/npm/ponyshow-cli.png)](https://nodei.co/npm/ponyshow-cli/)
+[![Get it on npm](https://nodei.co/npm/ponyshow.png)](https://nodei.co/npm/ponyshow/)
 
-Install globally and use ```pony``` command.
+Install globally and use the ```pony``` command.
 
 ```
-npm install ponyshow-cli -g
+$ npm install ponyshow -g
+
+$ pony
 ```
 
 ## Usage
@@ -160,6 +162,6 @@ TZ Martin <martin@semanticpress.com>
 
 Copyright (c) 2015, Semantic Press (Apache 2 Licensed)
 
-Ponyshow is made possible by the [Shower](https://github.com/shower/shower) open source project and other [open source software](https://github.com/Ponyshow/ponyshow-cli/wiki/Credits).
+Ponyshow is made possible by the [Shower](https://github.com/shower/shower) open source project and other [open source software](https://github.com/Ponyshow/ponyshow/wiki/Credits).
 
 See LICENSE for more info.
