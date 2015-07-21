@@ -1,5 +1,7 @@
 # Ponyshow - Create great-looking slides from simple Markdown files
 
+![Ponyshow Logo](https://monosnap.com/file/crHvGYE38jcQhxZeCTC6Rlznqj63S4.png)
+
 > Note: This project is in active development and will change (or break). Consider it alpha / beta.
 
 Ponyshow is an app for turning your markdown files into beautiful presentations.  It's a simpler, faster way to create, view and share high quality presentations.
