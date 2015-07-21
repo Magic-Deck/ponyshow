@@ -2,7 +2,7 @@
 
 ![Screenshot](https://monosnap.com/file/ALl3i8lgPtuH1UQz1sgZesR1F7pSFa.png)
 
-> Note: This project is in active development and will change (or break). Consider it alpha / beta.
+> Note: This project is the command line tool and core rendering logic.  The native desktop app (shown above) is in active development and not available for download yet. Consider this project alpha / beta.. it will break.
 
 Ponyshow is an app for turning your markdown files into beautiful presentations.  It's a simpler, faster way to create, view and share high quality presentations.
 
