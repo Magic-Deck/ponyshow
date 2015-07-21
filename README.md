@@ -57,6 +57,8 @@ $ npm install ponyshow -g
 $ pony
 ```
 
+![Command Line](https://monosnap.com/file/CmWzuVGLcErvhcijXoUvarn4rgHajF.png)
+
 ## Usage
 
 Example commands
