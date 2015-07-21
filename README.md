@@ -1,7 +1,5 @@
 # Ponyshow - Create great-looking slides from simple Markdown files
 
-![Ponyshow Logo](https://monosnap.com/file/crHvGYE38jcQhxZeCTC6Rlznqj63S4.png)
-
 ![Screenshot](https://monosnap.com/file/ALl3i8lgPtuH1UQz1sgZesR1F7pSFa.png)
 
 > Note: This project is in active development and will change (or break). Consider it alpha / beta.
