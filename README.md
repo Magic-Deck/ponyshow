@@ -1,8 +1,8 @@
 # Ponyshow - Create great-looking slides from simple Markdown files
 
-![Screenshot](https://monosnap.com/file/ALl3i8lgPtuH1UQz1sgZesR1F7pSFa.png)
+![Ponyshow Logo](https://monosnap.com/file/crHvGYE38jcQhxZeCTC6Rlznqj63S4.png)
 
-> Note: This project is the command line tool and core rendering logic.  The native desktop app (shown above) is in active development and not available for download yet. Consider this project alpha / beta.. it will break.
+> Note: This project is in active development and will change (or break). Consider it alpha / beta.
 
 Ponyshow is an app for turning your markdown files into beautiful presentations.  It's a simpler, faster way to create, view and share high quality presentations.
 
@@ -57,14 +57,12 @@ $ npm install ponyshow -g
 $ pony
 ```
 
-![Command Line](https://monosnap.com/file/CmWzuVGLcErvhcijXoUvarn4rgHajF.png)
-
 ## Usage
 
 Example commands
 
 ```
-$ pony run [path]               // renders a single presentation or displays a list to choose from
+$ pony run [path]				// renders a single presentation or displays a list to choose from
 $ pony run --locale en          // set localization to English
 $ pony new slide                // create a new deck
 $ pony config                   // display global configs
@@ -78,10 +76,11 @@ $ pony install theme http://..  // install a specific theme
 A Ponyshow deck is a compressed folder consisting of:
  
 ```
-- deck.md               // master slide deck
-- package.json          // deck configuration
-- assets/               // relative dependencies, images, media, etc
-- locales/              // localization files that contain ISO 3166-1 country codes (2 alpha)
+  deck-directory/
+   |-- package.json		// deck configuration
+   |-- deck.md			// master slide deck
+   |-- assets/			// relative dependencies, images, media, etc
+   `-- locales/			// localization files that contain ISO 3166-1 country codes (2 alpha)
 ```
 
 ## Writing Content
