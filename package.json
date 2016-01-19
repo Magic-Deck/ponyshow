@@ -41,7 +41,7 @@
     "longjohn": "^0.2.4",
     "mkdirp": "^0.5.1",
     "nconf": "^0.7.1",
-    "node-uuid": "^1.4.3",
+    "node-uuid": "^1.4.7",
     "nomnom": "^1.8.1",
     "pony-render": "*",
     "prettyjson": "^1.1.2",
